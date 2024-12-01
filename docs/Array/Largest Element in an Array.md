@@ -102,5 +102,88 @@ class Solution:
 
 
 
+## `2. Optimal Approach`
+
+### Algorithm / Intuition.
+
+## Solution2: Using a max variable.
+
+## Intuition:
+We can maintain a max variable that will update whenever the current value is greater than the value in the max variable.  
+
+## Approach: 
+- Create a max variable and initialize it with arr[0].
+- Use a for loop and compare it with other elements of the array
+- If any element is greater than the max value, update max value with the element’s value
+- Print the max variable.
+
+
+
+## Code.
+ ## Java
+ ```java
+class Solution {
+    public static int largest(int[] arr) {
+        
+        int max = arr[0];
+        
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]>max){
+                max = arr[i];
+            }
+        }
+        
+        return max;
+    }
+}
+```
+
+
+ ## JavaScript
+ ```javascript
+class Solution {
+    /**
+    * @param number[] arr
+
+    * @returns number
+    */
+    largest(arr) {
+        
+        let max = arr[0];
+        
+        for(let i=0; i<arr.length; i++){
+            if(arr[i]>max){
+                max = arr[i];
+            }
+        }
+        
+        return max;
+    }
+}
+```
+
+ ## Python
+ ```python
+
+class Solution:
+    def largest(self, arr : List[int]) -> int:
+        
+        max = arr[0]
+        
+        for i in range(0, len(arr)):
+            
+            if arr[i] > max:
+                max = arr[i]
+                
+        return max
+```
+
+## Complexity Analysis
+
+### Time Complexity: O(N)
+
+### Space Complexity: O(1)
+
+
 
 
