@@ -1,6 +1,6 @@
 # Pattern 2 - Right Triangle Star Pattern
 
-### Difficulty: Easy
+### Difficulty: `Easy`
 
 ## Problem Statement
 
