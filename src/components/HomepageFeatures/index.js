@@ -184,10 +184,13 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <p className="hero__subtitle" style={{ textAlign: "center" }}>
-          "In my journey to master Data Structures and Algorithms (DSA), I will
-          be solving each problem using Java, Python, and JavaScript,
-          documenting the implementations to understand the unique approaches
-          and trade-offs in each language."
+          "This documentation follows a multi-language approach to mastering
+          Data Structures and Algorithms, solving each problem across Java,
+          Python, and JavaScript. Each implementation is thoroughly documented
+          with algorithmic analysis, complexity breakdowns, and
+          language-specific paradigms to understand the unique trade-offs and
+          optimizations each language offers, building a comprehensive knowledge
+          base for algorithmic growth."
         </p>
         <div className="row">
           {FeatureList.map((props, idx) => (

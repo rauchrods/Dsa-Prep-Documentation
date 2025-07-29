@@ -22,9 +22,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://www.rauchrodrigues.in/"
+            to="/docs/intro"
           >
-            Visit My Portfolio
+            Let's Start learning DSA!
           </Link>
         </div>
       </div>
