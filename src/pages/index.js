@@ -7,6 +7,7 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
 import Link from "@docusaurus/Link";
+import BuyMeCoffee from "../components/HomepageFeatures/BuyMeCoffee";
 
 function HomepageHeader() {
   return (
@@ -27,6 +28,7 @@ function HomepageHeader() {
             Let's Start learning DSA!
           </Link>
         </div>
+        <BuyMeCoffee />
       </div>
     </header>
   );
