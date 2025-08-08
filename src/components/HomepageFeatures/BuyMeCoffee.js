@@ -5,7 +5,7 @@ function BuyMeCoffee() {
     <div style={{ marginTop: "2.5rem", textAlign: "center" }}>
       <p className="hero__subtitle">
         If this documentation helps you in your learning journey, consider
-        supporting the project!
+        supporting this project!
       </p>
       <a
         href="https://www.buymeacoffee.com/rauchrods"
